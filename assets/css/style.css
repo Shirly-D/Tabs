@@ -154,6 +154,13 @@ li .tab {
   display: none;
 }
 
+.active { 
+  border: 3px solid #AFB5BB;
+  border-bottom: none; 
+}
+
+.none { display: none; }
+
 figure {
   width: 20%;
   display: inline-block;
