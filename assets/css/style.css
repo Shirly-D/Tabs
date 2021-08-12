@@ -108,6 +108,39 @@ li {
   main styling starts here
 =================================*/
 
+h2 {
+  width: 100%;
+  padding: 10px 0;
+  color: #fff;
+  background-color: #000;
+  text-transform: capitalize;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.tabClick {
+  width: 80%;
+  margin: 30px auto;
+  border-bottom: 3px solid #AFB5BB;
+}
+
+.tab {
+  width: 30%;
+  padding: 20px 0;
+  color: #3C5470;
+  text-align: center;
+  font-size: 23px;
+  text-transform: capitalize;
+}
+
+.tab:hover {
+  border: 3px solid #AFB5BB;
+  border-bottom: none;
+  transition: 0.3s;
+}
+
+
 
 
 
