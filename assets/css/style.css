@@ -153,6 +153,11 @@ section .wrapper div {
   border: 1px solid #000;
 }
 
+figure {
+  width: 20%;
+  display: inline-block;
+}
+
 
 
 
