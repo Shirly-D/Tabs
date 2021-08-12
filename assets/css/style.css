@@ -125,19 +125,32 @@ h2 {
   border-bottom: 3px solid #AFB5BB;
 }
 
-.tab {
+.tabClick li {
   width: 30%;
+  text-align: center;
+}
+
+li .tab {
+  width: 100%;
   padding: 20px 0;
+  border: none;
+  background: #fff;
   color: #3C5470;
   text-align: center;
   font-size: 23px;
-  text-transform: capitalize;
+  text-transform: capitalize;   
 }
 
 .tab:hover {
   border: 3px solid #AFB5BB;
   border-bottom: none;
   transition: 0.3s;
+}
+
+section .wrapper div {
+  width: 70%;
+  margin: 0 auto;
+  border: 1px solid #000;
 }
 
 
