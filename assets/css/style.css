@@ -147,9 +147,11 @@ li .tab {
   transition: 0.3s;
 }
 
-section .wrapper div {
+.london,
+.paris,
+.tokyo {
   width: 70%;
-  margin: 0 auto;
+  margin: 45px auto 0;
   border: 1px solid #000;
 }
 
@@ -158,7 +160,29 @@ figure {
   display: inline-block;
 }
 
+.content-sec {
+  width: 79%;
+  border: none;
+  display: inline-block;
+  text-align: center;
+}
 
+.content-sec h3 {
+  width: 30%;
+  padding: 0 0 15px;
+  border-bottom: 2px solid #CDD1D5;
+  margin: 0 auto;
+  font-size: 30px;
+  text-transform: capitalize;
+}
+
+.content-sec p {
+  padding-top: 20px;
+  color: #7E6266;
+  font-size: 20px;   
+}
+
+.content-sec p::first-letter {text-transform: capitalize;}
 
 
 
