@@ -7,7 +7,7 @@
  
   <meta charset="utf-8">
 
-  <title>Client</title>
+  <title>Tab Functionality</title>
   
   <!-- 120 word description for SEO purposes goes here. Note: Usage of lang tag. -->
   <!-- <meta name="description" lang="en" content=""> -->
@@ -19,7 +19,7 @@
   <!-- This meta tag is used for mobile device to display the page without any zooming,
        so how much the device is able to fit on the screen is what's shown initially. 
        Remove comments from this tag, when you want to apply media queries to the website. -->
-  <!-- <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"> -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   
   <!-- To adhear no-cache for Chrome -->
 <!--   <meta http-equiv="cache-control" content="no-store, no-cache, must-revalidate" />
@@ -45,27 +45,37 @@
 <body>
   <!--container start-->
   <div class="container">
-    <!--header section start-->
-    <header>
-      
-    </header>
-    <!--header section start-->
+
     <!--main section start-->
     <main>
+      <section>
+        <h2>tabs</h2>
+        <ul class="tabClick">
+          <li class="tab">london</li>
+          <li class="tab">paris</li>
+          <li class="tab">tokyo</li>
+        </ul>
+
+        <div class="london">
+          <h3>london</h3>
+          <p>london is the capital city of England</p>
+        </div>
+        <div class="paris">
+          <h3>paris</h3>
+          <p>paris is the capital city of France</p>
+        </div>
+        <div class="tokyo">
+          <h3>tokyo</h3>
+          <p>tokyo is the capital city of japan</p>
+        </div>
+      </section>
 
     </main>
     <!--main section end-->
 
-    <!--footer section start-->
-    <footer>      
-
-    </footer>
-    <!--footer section end-->
-
   </div>
   <!--container end-->
 
-<!-- <script src="js/vendors/jquery-1.8.3.min.js"></script>
-<script src="js/script.js"></script> -->
+<script src="assets/js/script.js"></script>
 </body>
 </html>
