@@ -14,13 +14,14 @@ function city(e, nameOfCity) {
     var i;
     var cityName = document.querySelectorAll('.city-name');
     for (i = 0; i < cityName.length; i++) {
-        cityName[i].className = "none";
+        cityName[i].classList.remove('active-content');
     }
     for (i = 0; i < tab.length; i++) {
         tab[i].className = tab[i].className.replace(" active", "");
     }
-    document.querySelectorAll('#' + nameOfCity).className = "block";
-    e.currentTarget.className += " active"; 
+    document.querySelector('#' + nameOfCity).classList.add('active-content');
+    e.currentTarget.className += " active";
+    console.log(document.querySelector('#' + nameOfCity)); 
 }
 
 
