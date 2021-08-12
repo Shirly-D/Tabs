@@ -19,7 +19,7 @@ function city(e, nameOfCity) {
     for (i = 0; i < tab.length; i++) {
         tab[i].className = tab[i].className.replace(" active", "");
     }
-    document.querySelectorAll(nameOfCity).className = "block";
+    document.querySelectorAll('#' + nameOfCity).className = "block";
     e.currentTarget.className += " active"; 
 }
 
