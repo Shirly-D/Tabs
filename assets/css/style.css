@@ -147,12 +147,11 @@ li .tab {
   transition: 0.3s;
 }
 
-.london,
-.paris,
-.tokyo {
+.city-name {
   width: 70%;
   margin: 45px auto 0;
   border: 1px solid #000;
+  display: none;
 }
 
 figure {
