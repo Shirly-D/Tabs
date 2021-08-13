@@ -4,10 +4,8 @@ for (var j = 0; j < tab.length; j++) {
             if (this == e.target) {
            var cityName = e.target.getAttribute("data-city");
            city(e, cityName);
-           console.log(cityName);
         }
     });
-
 }
 
 function city(e, nameOfCity) {
