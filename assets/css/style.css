@@ -155,7 +155,7 @@ li .tab {
   display: none;
 }
 
-.active { 
+li .active { 
   border: 3px solid #AFB5BB;
   border-bottom: none; 
 }
