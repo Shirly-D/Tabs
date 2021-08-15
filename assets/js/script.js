@@ -12,13 +12,12 @@ function city(e, nameOfCity) {
     var i;
     var cityName = document.querySelectorAll('.city-name');
     for (i = 0; i < cityName.length; i++) {
+        var currCity = cityName[i].getAttribute('id');
         cityName[i].classList.remove('active-content');
-    }
-    for (i = 0; i < tab.length; i++) {
-        tab[i].className = tab[i].className.replace(" active", "");
+        tab[i].className =tab[i].className.replace(" active", "");
     }
     document.querySelector('#' + nameOfCity).classList.add('active-content');
-    e.currentTarget.className += " active";
+    e.target.className += " active";
     console.log(document.querySelector('#' + nameOfCity)); 
 }
 
